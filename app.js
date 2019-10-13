@@ -1,5 +1,5 @@
-sayHello = () => {
-  console.log('hello');
+sayHello = name => {
+  console.log(`hello ${name}`);
 };
 
-sayHello();
+sayHello('Bob');
